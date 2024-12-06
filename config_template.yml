@@ -1,0 +1,22 @@
+# # #             Copyright Chiappina.com © 2013-XXXX             # # #
+# # #                Todos os direitos reservados!                # # #
+# # # Caso você tenha acesso a esse sistema, você é privilegiado! # # #
+mySQL:
+  host: localhost
+  port: 3306
+  username: example
+  password: '123456'
+  database: db
+  tableGeneral: logGeneral
+  tableStaff: logStaff
+serverName: dayz
+logSTAFFOnly: false
+dateFormat: 'MM/dd/yyyy-HH:mm:ss'
+staffPermissions: #<permission>:<role>
+  - 'pdgh.presidente:presidente'
+  - 'pdgh.vicepresidente:vicepresidente'
+  - 'pdgh.diretor:diretor'
+  - 'pdgh.subdiretor:subdiretor'
+  - 'pdgh.admin:admin'
+  - 'pdgh.moderador:moderador'
+  - 'pdgh.coordenador:coordenador'
